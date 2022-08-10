@@ -1,0 +1,52 @@
+header{
+    background-color: black;
+    color:white;
+}
+
+header p{
+    display:inline;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    font-size: 15px;
+    background-color:teal;
+    color:white;
+}
+
+
+
+.form{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: left;
+    width:85%;
+    height:auto;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px grey;
+    padding:10px;
+    margin:auto;
+    border-radius: 15px;
+    margin-top:-50px;
+    z-index:1;
+}
+
+.health-pic{
+    width:100%;
+    z-index:-1;
+}
+
+.input{
+    padding:5px;
+}
+
+@media(min-width:600px){
+    form{
+        flex-direction: column;
+    }
+    .input{
+        width:50%;
+    }
+}
